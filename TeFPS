@@ -12,5 +12,4 @@ w
 
 
 when using your application you may need to send emails to do try to install FakeSMTP http://nilhcem.com/FakeSMTP/
-if you have any changes made on elasticsearch docs, try to create a migration file follow this task https://gitlab.polyconseil.fr/tefps/smartcity-cvfm/-/merge_requests/3996
-
+if you have any changes made on elasticsearch docs, try to create a migration file follow this task 4411 
