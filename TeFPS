@@ -4,7 +4,7 @@ BDO backdooroffice
 
 
 
-
+perform your swap file /partion to 32 and set your swappiness to 10 ( changed mine from 60 10 )
 
 
 
