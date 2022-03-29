@@ -1,4 +1,6 @@
-w
+FO front office
+BO backOffice
+BDO backdooroffice
 
 
 
@@ -13,3 +15,8 @@ w
 
 when using your application you may need to send emails to do try to install FakeSMTP http://nilhcem.com/FakeSMTP/
 if you have any changes made on elasticsearch docs, try to create a migration file follow this task 4411 
+
+when you create a new city make sure to add a secret key and ID for this city in the backdooroffice (adding Id and key make franceconnect button appears)
+to access a city from the FO add "cvfmfront." in front configuration of the city (accessible from BDO)
+
+
