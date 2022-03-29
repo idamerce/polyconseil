@@ -5,6 +5,7 @@ BDO backdooroffice
 
 
 perform your swap file /partion to 32 and set your swappiness to 10 ( changed mine from 60 10 )
+yor git won't connect by SSh do it with HTL and save your credentials after executing :git config --global credential.helper store
 
 
 
