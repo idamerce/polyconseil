@@ -1,0 +1,11 @@
+two component Types:
+
+--js functions:
+----function(props){return <h1>hello {props.name} <h1>}
+--stateful class component:
+----class Welcome exteds React.Component {
+      render(){
+        return <h1>hello {props.name} <h1>
+      }
+    }
+
