@@ -20,8 +20,7 @@ Method Level Annotation: @Target(ElementType.METHOD)
 public class Alien {}`
 Simply put, we'll have to define a custom Serializer for our Alien objects:
 
-public class AlienSerializer extends StdSerializer<Alien> 
- {
+public class AlienSerializer extends StdSerializer< Alien > {
  
     public AlienSerializer() { this(null);}
  
