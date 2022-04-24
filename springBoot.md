@@ -20,12 +20,12 @@ Method Level Annotation: @Target(ElementType.METHOD)
 public class Alien {}`
 Simply put, we'll have to define a custom Serializer for our Alien objects:
 
-public class ItemSerializer extends StdSerializer<Item> 
+public class AlienSerializer extends StdSerializer<Alien> 
  {
  
-    public ItemSerializer() { this(null);}
+    public AlienSerializer() { this(null);}
  
-    public ItemSerializer(Class<Item> t) { super(t);}
+    public AlienSerializer(Class<Alien> t) { super(t);}
  
     @Override
     public void serialize(
